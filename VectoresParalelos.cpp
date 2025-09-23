@@ -22,7 +22,7 @@ int main() {
     }
 
     std::string linea;
-    std::getline(archivo, linea); // ignorar encabezado
+    std::getline(archivo, linea);
 
     while (std::getline(archivo, linea) && AtletasTotales < 10) {
         std::string campos[5];
